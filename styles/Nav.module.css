@@ -23,7 +23,7 @@
 }
 .nav ul{
   padding: 5px;
-  margin-left: 175px;;
+  margin-left: 140px;;
 }
 .grey{
   color: #4a5568;
@@ -46,12 +46,15 @@
   float: right;
 }
 .nav ul .sign button{
-  padding:10px;
-  border-radius: 5px;
-  border:none;
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
   background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: #ffffff;
-  font-size: 17px;
+  margin-top: 5px;
+  font-size: 15px;
   font-weight:bold;
 }
 .nav ul .sign{

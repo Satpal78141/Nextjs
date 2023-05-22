@@ -2,14 +2,14 @@ import navStyle from '../styles/Nav.module.css';
 import Link from 'next/link';
 const Nav = () => {
   return (
-    <div className='container m-auto'>  
+    <div>  
     <nav className={navStyle.nav}>
       <ul>
         <li className={navStyle.logo_list}>
             <Link href="/" className={navStyle.logo}><img src="/logo.jpg" />Subly</Link>
         </li>
         <li >
-            <Link href="#" className={navStyle.grey}>Features</Link>
+            <Link href="#feature" className={navStyle.grey}>Features</Link>
         </li>
         <li>
             <Link href="#" className={navStyle.grey}>Pricing</Link>
