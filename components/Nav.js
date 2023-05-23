@@ -12,10 +12,10 @@ const Nav = () => {
             <Link href="#feature" className={navStyle.grey}>Features</Link>
         </li>
         <li>
-            <Link href="#" className={navStyle.grey}>Pricing</Link>
+            <Link href="#pricing" className={navStyle.grey}>Pricing</Link>
         </li>
         <li >
-            <Link href="#" className={navStyle.grey}>FAQ</Link>
+            <Link href="#faq" className={navStyle.grey}>FAQ</Link>
         </li>
    <li className={navStyle.sign}>
     <button>Signup</button>

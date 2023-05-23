@@ -31,7 +31,7 @@ margin: auto;
 }
 .underDiv{
     padding-top: 8%;
-    padding-bottom: 8%;
+    padding-bottom: 5%;
     width: 80%;
     margin: auto;
     margin-top: 65px;
@@ -48,14 +48,14 @@ margin: auto;
 }
 
 .getstarted_container{
-    width: 100%;
+    width: 80%;
     padding-top:4rem;
     padding-bottom:4rem;
     border-radius: 25px;
     background:linear-gradient( 45deg,#8E2DE2,#4A00E0);
     text-align: center;
+    margin: auto;
     color: white;
-    margin-bottom: 15px;
 }
 .getstarted_heading{
 font-size: 35px;
@@ -75,31 +75,83 @@ border-radius: 25px;
 }
 
 .card{
-    padding:25px;
+    height:min-content;
     width:50%;
+    border-radius: 10px;
     margin-left: 25px;
     border: 2px solid #d4d9ddbd;
     margin-top: 25px;
 }
 
-.dollar .heading{
+.price {
     font-size: 25px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 6%;
+    width: fit-content;
 }
 .underDiv1{
     padding-top: 6%;
     padding-bottom: 6%;
-    width: 45%;
+    width: 48%;
     margin: auto;
 }
-.card li{
-    border-top:1px solid #eff1f12d
+.card ul li{
+    margin-bottom: 5%;
 }
-.card button{
+.card ul{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.card .button button{
     padding:10px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    border: 2px solid black;
     border-radius: 25px;
-    margin: auto;
-    margin-top: 25px;
+}
+.button{
+    margin-top: 5%;
+    padding: 5%;
+}
+.heading_section{
+    padding-top:15%;
+    padding-left: 14%;
+    padding-right: 14%;
+    padding-bottom: 2%;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 15px;
+}
+.bgColor{
+    background:linear-gradient( 45deg,#8E2DE2,#4A00E0);
+}
+.fontSize_big{
+    font-size: 45px;
+}
+.time_size{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+.proId button{
+   border:2px solid #7448ce88;
+   background:linear-gradient( 45deg,#8E2DE2,#4A00E0);
+
+}
+.proId button:hover{
+    border:2px solid #6531ccdc;
+    background:linear-gradient( 45deg,#721abb,#4100c2fa);
+ 
+ }
+.Id button{
+    border: 2px solid black;
+}
+.check{
+ color: green;
+}
+.smallFont{
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.712);
+    background-color: rgb(143, 219, 143);
 }

@@ -1,0 +1,57 @@
+[
+    {
+     "id":1,
+     "heading":"About",
+     "sub_heading":[
+        {
+            "name":"Get Started",
+            "link":"/"
+        },{
+            "name":"Manifesto",
+            "link":"https://www.subly.app/manifesto"
+        },{
+            "name":"Features",
+            "link":"#features"
+        },{
+            "name":"FAQ",
+            "link":"#faq"
+        }
+     ]   
+    },{
+        "id":2,
+        "heading":"Product",
+        "sub_heading":[
+           {
+               "name":"Releases",
+               "link":"https://www.subly.app/releases"
+           },{
+               "name":"Affiliate Program",
+               "link":"https://www.subly.app/affiliates"
+           },{
+               "name":"Roadmap",
+               "link":"https://roadmap.subly.app/"
+           },{
+               "name":"Suggest a Feature",
+               "link":"https://roadmap.subly.app/feature-requests"
+           },{
+            "name":"Status",
+            "link":"https://status.subly.app/"
+        }
+        ]   
+       },{
+        "id":3,
+        "heading":"Legal",
+        "sub_heading":[
+           {
+               "name":"Privacy Policy",
+               "link":"https://www.subly.app/legal/privacy-policy#intro"
+           },{
+               "name":"Terms of Service",
+               "link":"https://www.subly.app/legal/terms#intro"
+           },{
+               "name":"Cookie Policy",
+               "link":"https://www.subly.app/legal/cookie-policy#intro"
+           }
+        ]   
+       }
+]

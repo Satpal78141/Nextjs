@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "que":"Why Subly?",
+        "ans":"Having gone through the frustration of forgetting about a subscription trial and having to pay for the full membership. I realized that a simple, practical software to track my subscriptions would be extremely useful. As a result, I came up with Subly. I hope you find it as useful as I do."
+    },
+    {
+        "id":2,
+        "que":"Can I use Subly to track payments other than subscriptions?",
+        "ans":"Absolutely. Subly can be used to track and manage any recurring payments."
+    },
+    {
+        "id":3,
+        "que":"How many subscriptions can I track?",
+        "ans":"The Free version of Subly allows you to track up to 10 subscriptions. If you would like to track more than 10 subscriptions, please consider upgrading to the Pro version."
+    }
+]

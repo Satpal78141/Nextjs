@@ -419,28 +419,13 @@
    background: #fac3ff;
  }
 
-
-
-@keyframes example {
-  0% {margin-top: 0px;}
-  100%{margin-top: -20px;}
-}
-
-
-.transformImg{
-  animation: example 4s linear;
-  animation: example_bottom 4s linear;
-}
 .headingSection{
   margin-top: -32px;
   width: 95%;
   margin: auto;
   padding: 3rem !important;
 }
-@keyframes example_bottom{
-  0%{margin-top: -20px;}
-  100%{margin-top: 0px;}
-}
+
 
 .icon{
   width:50%;
