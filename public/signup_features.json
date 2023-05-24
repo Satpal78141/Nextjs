@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "heading": "Get control over your subscriptions",
+        "description": "Start tracking your subscriptions and get insights of your costs"
+    },
+    {
+        "id": 2,
+        "heading": "We protect your privacy",
+        "description": "No need to link your bank account"
+    },
+    {
+        "id": 3,
+        "heading": "Free Plan, forever",
+        "description": "Use the free plan all you want, it'll always be free"
+    }
+]

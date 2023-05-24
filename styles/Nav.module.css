@@ -1,51 +1,60 @@
-.nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
- .nav ul li{
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 18px 24px;
-    padding-bottom: 7px;
-    color: #4a5568;
-    font-size:15px;
-    text-decoration: none;
-  }
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
 
-.nav li img{
+.nav ul li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 18px 24px;
+  padding-bottom: 7px;
+  color: #4a5568;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav li img {
   height: 40px;
   margin-top: -5px;
 }
-.nav ul{
+
+.nav ul {
   padding: 5px;
-  margin-left: 140px;;
+  margin-left: 140px;
+  ;
 }
-.grey{
+
+.grey {
   color: #4a5568;
-  font-size:16px;
+  font-size: 16px;
 }
-.grey:hover{
-  color:#6f55ff
+
+.grey:hover {
+  color: #6f55ff
 }
-.logo{
-  font-size:20px;
-  color:black;
+
+.logo {
+  font-size: 20px;
+  color: black;
   display: flex;
-  padding-top:-15px;
+  padding-top: -15px;
   font-weight: bold;
 }
-.nav .logo_list{
+
+.nav .logo_list {
   padding-top: 14px;
 }
-.nav ul .login,.nav ul .sign{
+
+.nav ul .login,
+.nav ul .sign {
   float: right;
 }
-.nav ul .sign button{
+
+.nav ul .sign button {
   padding: 13px;
   border-radius: 8px;
   border: none;
@@ -55,13 +64,15 @@
   color: #ffffff;
   margin-top: 5px;
   font-size: 15px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.nav ul .sign{
-  padding-left:0px;
+
+.nav ul .sign {
+  padding-left: 0px;
   margin-right: 180px;
   padding-top: 6px;
 }
-.nav{
-  border-bottom:1px solid rgb(250, 237, 237);
+
+.nav {
+  border-bottom: 1px solid rgb(250, 237, 237);
 }

@@ -1,23 +1,42 @@
 [
-        {
-            "id":1,
-            "title":"Basic",
-            "color":"white",
-            "sub_title":"Recommended for personal use",
-            "price":"$ 0",
-            "time":"forever",
-            "features":["Track 10 subscriptions","Payment alerts","Email Support 3-5 days"],
-            "cross_features":["Ad-free experience","Projects","Integrations"]
-        },{
-            "id":2,
-            "title":"Pro",
-            "sub_title":"Best for individuals with multiple projects and SMBs",
-            "color":"linear-gradient( 45deg,#8E2DE2,#4A00E0)",
-            "price":"$ 39",
-            "time":"/ Year",
-            "main_feature":["Unlimited Subscriptions"],
-            "features":["3 team members","Priority Support","Ad-free experience","Projects","Integrations"],
-            "upcoming_features":["API Access","2FA / MFA "]
-        }
-
-    ]
+    {
+        "id": 1,
+        "title": "Basic",
+        "color": "white",
+        "sub_title": "Recommended for personal use",
+        "price": "$ 0",
+        "time": "forever",
+        "features": [
+            "Track 10 subscriptions",
+            "Payment alerts",
+            "Email Support 3-5 days"
+        ],
+        "cross_features": [
+            "Ad-free experience",
+            "Projects",
+            "Integrations"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Pro",
+        "sub_title": "Best for individuals with multiple projects and SMBs",
+        "color": "linear-gradient( 45deg,#8E2DE2,#4A00E0)",
+        "price": "$ 39",
+        "time": "/ Year",
+        "main_feature": [
+            "Unlimited Subscriptions"
+        ],
+        "features": [
+            "3 team members",
+            "Priority Support",
+            "Ad-free experience",
+            "Projects",
+            "Integrations"
+        ],
+        "upcoming_features": [
+            "API Access",
+            "2FA / MFA "
+        ]
+    }
+]

@@ -1,35 +1,43 @@
-.feature{
-    width:100%;
+.feature {
+    width: 100%;
     background: #f1f5f9;
 
 }
-.text{
+
+.text {
     width: 45%;
     margin-top: 5%;
 }
-.heading{
+
+.heading {
     font-size: 40px;
     width: 100%;
     line-height: 40px;
     margin-bottom: 15px;
     font-weight: bold;
 }
-.text_text{
+
+.text_text {
     font-size: 14px;
     margin-bottom: 15px;
+    width: 500px;
 }
-.text a , .text i{
+
+.text a,
+.text i {
     color: #6F55FF;
 }
 
-.imgDiv{
+.imgDiv {
     width: 35%;
-margin: auto;
+    margin: auto;
 }
-.img{
+
+.img {
     width: 100%;
 }
-.underDiv{
+
+.underDiv {
     padding-top: 8%;
     padding-bottom: 5%;
     width: 80%;
@@ -37,46 +45,56 @@ margin: auto;
     margin-top: 65px;
 
 }
-.background_white{
+
+.background_white {
     width: 100%;
     background-color: white;
 }
-.background_white1{
+
+.background_white1 {
     width: 100%;
     background-color: white;
     height: 25px;
 }
 
-.getstarted_container{
+.getstarted_container {
     width: 80%;
-    padding-top:4rem;
-    padding-bottom:4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     border-radius: 25px;
-    background:linear-gradient( 45deg,#8E2DE2,#4A00E0);
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0);
     text-align: center;
     margin: auto;
     color: white;
 }
-.getstarted_heading{
-font-size: 35px;
-font-family: Arial, Helvetica, sans-serif;
-margin-bottom: 15px;
-}
-.getstarted_text{
-    font-size: 20px;
-}
-.getstarted_container button{
-margin-top: 15px;
-padding: 10px;
-padding-left: 15px;
-padding-right: 15px;
-background-color: #6F55FF;
-border-radius: 25px;
+
+.getstarted_heading {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
 }
 
-.card{
-    height:min-content;
-    width:50%;
+.getstarted_text {
+    font-size: 20px;
+}
+
+.getstarted_container button {
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #6F55FF;
+    border-radius: 25px;
+}
+
+.getstarted_container button:hover {
+    background-color: #5238e4;
+
+}
+
+.card {
+    height: min-content;
+    width: 50%;
     border-radius: 10px;
     margin-left: 25px;
     border: 2px solid #d4d9ddbd;
@@ -90,66 +108,80 @@ border-radius: 25px;
     margin-top: 6%;
     width: fit-content;
 }
-.underDiv1{
+
+.underDiv1 {
     padding-top: 6%;
     padding-bottom: 6%;
     width: 48%;
     margin: auto;
 }
-.card ul li{
+
+.card ul li {
     margin-bottom: 5%;
 }
-.card ul{
+
+.card ul {
     padding-left: 15%;
     padding-right: 15%;
 }
-.card .button button{
-    padding:10px;
+
+.card .button button {
+    padding: 10px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 25px;
 }
-.button{
+
+.button {
     margin-top: 5%;
     padding: 5%;
 }
-.heading_section{
-    padding-top:15%;
+
+.heading_section {
+    padding-top: 15%;
     padding-left: 14%;
     padding-right: 14%;
     padding-bottom: 2%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 15px;
 }
-.bgColor{
-    background:linear-gradient( 45deg,#8E2DE2,#4A00E0);
+
+.bgColor {
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0);
 }
-.fontSize_big{
+
+.fontSize_big {
     font-size: 45px;
 }
-.time_size{
+
+.time_size {
     font-size: 25px;
     margin-top: 15px;
     font-weight: lighter;
 }
-.proId button{
-   border:2px solid #7448ce88;
-   background:linear-gradient( 45deg,#8E2DE2,#4A00E0);
+
+.proId button {
+    border: 2px solid #7448ce88;
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0);
 
 }
-.proId button:hover{
-    border:2px solid #6531ccdc;
-    background:linear-gradient( 45deg,#721abb,#4100c2fa);
- 
- }
-.Id button{
+
+.proId button:hover {
+    border: 2px solid #6531ccdc;
+    background: linear-gradient(45deg, #721abb, #4100c2fa);
+
+}
+
+.Id button {
     border: 2px solid black;
 }
-.check{
- color: green;
+
+.check {
+    color: green;
 }
-.smallFont{
+
+.smallFont {
     font-size: 16px;
     margin-left: 10px;
     color: rgba(0, 0, 0, 0.712);
