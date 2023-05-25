@@ -1,6 +1,7 @@
 import React from 'react'
 import featureStyle from '../styles/Feature.module.css';
 import pricing_Data from '../public/pricing_data.json'
+import Link from 'next/link';
 
 
 function List({ item }) {
@@ -44,7 +45,7 @@ const Pricing = () => {
                                 <List item={item} />
                             </ul>
                             <div className={item.id == 2 ? `text-white ${featureStyle.proId} ${featureStyle.button}` : ` ${featureStyle.Id} ${featureStyle.button}`}>
-                                <button onClick={()=>window.location.href="/signup"}> Get started with {item.title}</button>
+                                <button><Link href='/signup'> Get started with {item.title}</Link></button>
                             </div>
                         </div>
                     )

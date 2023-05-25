@@ -162,14 +162,20 @@
 }
 
 .proId button {
-    border: 2px solid #7448ce88;
-    background: linear-gradient(45deg, #8E2DE2, #4A00E0);
+    border: 2px solid #7448ce88 !important;
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0) !important;
 
 }
+@media (prefers-color-scheme: dark) {
+     .proId button {
+    border: 2px solid #7448ce88 !important;
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0) !important;
+
+} }
 
 .proId button:hover {
-    border: 2px solid #6531ccdc;
-    background: linear-gradient(45deg, #721abb, #4100c2fa);
+    border: 2px solid #6531ccdc !important;
+    background: linear-gradient(45deg, #721abb, #4100c2fa)!important;
 
 }
 

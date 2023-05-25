@@ -38,7 +38,7 @@ const Feature = () => {
                 <div className={featureStyle.getstarted_container} data-aos="fade-up">
                     <p className={featureStyle.getstarted_heading}>Get started today</p>
                     <p className={featureStyle.getstarted_text}>Signup now and take back control over your subscriptions.</p>
-                    <button onClick={() => window.location.href = "/signup"} >Get started for free</button>
+                    <button><a href="/signup"> Get started for free</a></button>
                 </div>
             </div>
             <p className={featureStyle.background_white1}></p>

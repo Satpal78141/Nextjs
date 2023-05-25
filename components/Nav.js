@@ -20,7 +20,7 @@ const Nav = () => {
       <nav className={navStyle.nav}>
         <ul>
           <li className={navStyle.logo_list}>
-            <Link onClick={handleClick} href="/" className={navStyle.logo}><img src="/logo.jpg" />Subly</Link>
+            <p onClick={()=>window.reload} className={`${navStyle.logo} cursor-pointer`}><img className="mr-2 w-5" src="https://www.subly.app/logo.svg"/>Subly</p>
           </li>
           <li >
             <Link onClick={handleClick} href="#feature" className={navStyle.grey}>Features</Link>
@@ -32,7 +32,7 @@ const Nav = () => {
             <Link onClick={handleClick} href="#faq" className={navStyle.grey}>FAQ</Link>
           </li>
           <li className={navStyle.sign}>
-            <button onClick={() => { window.location.href = "/signup" }}>Signup</button>
+            <button><a href="/signup">Signup</a></button>
           </li>
           <li className={navStyle.login}>
             <Link href="/login" className={navStyle.grey}>Login</Link>

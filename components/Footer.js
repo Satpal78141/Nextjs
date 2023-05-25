@@ -7,9 +7,11 @@ const Footer = () => {
         <div className={footer.back_color}>
             <footer className={`flex ${footer.footer}`}>
                 <div className={footer.section}>
-                    <div className='flex'><img src='/logo.jpg' className={`w-10 h-10 ${footer.logo}`} /><p className={footer.heading}> Subly</p></div>
+                    <div className='flex'><img src='https://www.subly.app/logo.svg' className={`mr-2 w-5 h-10 ${footer.logo}`} /><p className={footer.heading}> Subly</p></div>
                     <p className='text-grey'>All your subscriptions and recurring payments in one place.</p>
-                    <div className={`flex ${footer.icon_div}`}><button onClick={() => window.location.href = "https://twitter.com/sublyweb"}><i class="fa-brands fa-twitter"></i></button> <button className='ml-10' onClick={() => window.location.href = "https://www.buymeacoffee.com/emiliosanchez"}><img src="https://pic.onlinewebfonts.com/svg/img_58982.png" class="w-5 h-5" /></button></div>
+                    <div className={`flex ${footer.icon_div}`}><button onClick={() => window.location.href = "https://twitter.com/sublyweb"}><i class="fa-brands fa-twitter"></i></button> <button className='ml-10' onClick={() => window.location.href = "https://www.buymeacoffee.com/emiliosanchez"}><i class="fa fa-cuo-togo w-5 h-5"></i></button>
+                    </div>
+                    
                 </div>
                 {footerData.map((item) => {
                     return (

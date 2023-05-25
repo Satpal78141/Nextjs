@@ -13,6 +13,8 @@ const Main = () => {
     }, [])
     function targetDiv(id){
        var elem=document.getElementById(id);
+       console.log(elem)
+
        elem?.scrollIntoView({
       behavior: "smooth",
     }); 
@@ -27,7 +29,7 @@ const Main = () => {
                         <div className={`${HomeStyle.box} ${HomeStyle.top}`}></div>
                     </div>
                 </div>
-                <img src='https://www.subly.app/spotify.png' className={`w-10 h-10 float-left`} data-aos="fade-up"
+                <img src='https://www.subly.app/spotify.png' className={`w-10 h-10 rounded-full float-left`} data-aos="fade-up"
                     data-aos-anchor-placement="top-center" data-aos-duration="1500" />
                 <img src='https://www.subly.app/dropbox.png' className={`w-10 h-10 rounded-full ${HomeStyle.left} `} data-aos="fade-up"
                     data-aos-anchor-placement="top-center" data-aos-duration="1500" />
@@ -50,8 +52,8 @@ const Main = () => {
                 </div>
                 <div className={`text-grey ${HomeStyle.fontSize}`}>Subly helps you take control over your subscriptions.
                     <br />
-                    <button onClick={() => window.location.href = "/signup"} className={HomeStyle.getStartButton}> Get started for free</button>
-                    <button onClick={() => targetDiv("feature")} className={HomeStyle.learnMoreButton}> Learn More</button>
+                    <button className={HomeStyle.getStartButton}><a href='/signup'>Get started for free</a> </button>
+                    <button onClick={()=>targetDiv("feature")} className={HomeStyle.learnMoreButton}> <a href='#feature'> Learn More</a> </button>
                 </div>
                 <div className={HomeStyle.wrapper}>
                     <div className={HomeStyle.contain3}>
