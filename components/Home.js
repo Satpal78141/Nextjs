@@ -13,14 +13,12 @@ const Main = () => {
     }, [])
     function targetDiv(id){
        var elem=document.getElementById(id);
-       console.log(elem)
-
        elem?.scrollIntoView({
       behavior: "smooth",
     }); 
     }
     return (
-        <div className={`m-auto ${HomeStyle.container}`} >
+        <div className={`m-auto ${HomeStyle.container} bg-white`} >
             <Nav />
 
             <div className={`flex ${HomeStyle.transparent} `}>

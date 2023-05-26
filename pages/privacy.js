@@ -7,7 +7,7 @@ const privacy = () => {
           <div className={`${privacyStyle.container_fluid}`}>
               <div className={`${privacyStyle.wrap_collabsible}`}>
                   <input id="collapsible3" className={`${privacyStyle.toggle}`} type="checkbox" />
-                  <label for="collapsible3" className={`${privacyStyle.lbl_toggle}`} tabindex="0">Summary</label>
+                  <label htmlFor="collapsible3" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">Summary</label>
                   <div className={`${privacyStyle.collapsible_content}`}>
                       <div className={`${privacyStyle.content_inner}`}>
                           <div> This privacy note explains how we collect, store, and use your information. </div>
@@ -41,7 +41,7 @@ const privacy = () => {
           </div>
           <div className={`${privacyStyle.wrap_collabsible}`} >
           <input id="collapsible3_1" className={`${privacyStyle.toggle} `} type="checkbox"/>
-          <label for="collapsible3_1" className={`${privacyStyle.lbl_toggle}`}  tabindex="0">Information About Us</label>
+          <label htmlFor="collapsible3_1" className={`${privacyStyle.lbl_toggle}`}  tabIndex="0">Information About Us</label>
           <div className={`${privacyStyle.collapsible_content}`} >
                     <div className={`${privacyStyle.content_inner}`}>
                         <div><b className={privacyStyle.b}>Company Name:</b> Tiny Medical Apps Limited.</div>
@@ -67,7 +67,7 @@ const privacy = () => {
             </div>
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_2" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_2" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> What Does This Notice Cover? </label>
+                <label htmlFor="collapsible3_2" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> What Does This Notice Cover? </label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>This Privacy Information explains how we use your personal data: how it is collected, how it is
@@ -78,7 +78,7 @@ const privacy = () => {
             </div>
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_3" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_3" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> What Is Personal Data and our Legal Basis to
+                <label htmlFor="collapsible3_3" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> What Is Personal Data and our Legal Basis to
                     process Personal Data?</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
@@ -100,7 +100,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_4" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_4" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> What Does This Notice Cover? </label>
+                <label htmlFor="collapsible3_4" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> What Does This Notice Cover? </label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>Under the Data Protection Legislation, you have the following rights, which we will always work
@@ -150,7 +150,7 @@ const privacy = () => {
             </div>
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_5" className={`${privacyStyle.toggle}`} type="checkbox"/>
-                <label for="collapsible3_5" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> What Personal & Sensitive Data Do You Collect
+                <label htmlFor="collapsible3_5" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> What Personal & Sensitive Data Do You Collect
                     and How?</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
@@ -160,7 +160,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible}`}>
                                 <input id="collapsible3_5_1" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_1" className={`${privacyStyle.sub_lbl_toggle}`} tabi   ndex="0">Health</label>
+                                <label htmlFor="collapsible3_5_1" className={`${privacyStyle.sub_lbl_toggle}`} tabi   ndex="0">Health</label>
                                 <div className={`${privacyStyle.collapsible_content } ${privacyStyle.bottom_1}`}>
                                     <div className={`${privacyStyle.content_inner}`}>
                                         <div>Health: including physical health conditions (asthma, allergy), clinical
@@ -187,7 +187,7 @@ const privacy = () => {
                             </div>
                             <div className={`${privacyStyle.wrap_collabsible } ${privacyStyle.top_o}`}>
                                 <input id="collapsible3_5_2" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_2" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Ethnicity</label>
+                                <label htmlFor="collapsible3_5_2" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Ethnicity</label>
                                 <div className={`${privacyStyle.collapsible_content}`}>
                                     <div className={`${privacyStyle.content_inner}`}>
 
@@ -198,7 +198,7 @@ const privacy = () => {
                             <h4 className={privacyStyle.h4}>Personal Data</h4>
                             <div className={`${privacyStyle.wrap_collabsible}`}>
                                 <input id="collapsible3_5_3" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_3" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Social Login</label>
+                                <label htmlFor="collapsible3_5_3" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Social Login</label>
                                 <div className={`${privacyStyle.collapsible_content }`}>
                                     <div className={`${privacyStyle.content_inner }`}>
                                         <div><b className={privacyStyle.b}>Social Login : </b>Data from Social Login including Name, email address &
@@ -213,7 +213,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible } ${privacyStyle.top_o}`}>
                                 <input id="collapsible3_5_4" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_4" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">NHS Login</label>
+                                <label htmlFor="collapsible3_5_4" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">NHS Login</label>
                                 <div className={`${privacyStyle.collapsible_content }`}>
                                     <div className={`${privacyStyle.content_inner}`}>
                                         <div><b className={privacyStyle.b}>NHS Login :</b> Data from NHS Login accounts including Name, NHS Number, email
@@ -228,7 +228,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible } ${privacyStyle.top_o}`}>
                                 <input id="collapsible3_5_5" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_5" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Profile
+                                <label htmlFor="collapsible3_5_5" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Profile
                                     information</label>
                                 <div className={`${privacyStyle.collapsible_content}`}>
                                     <div className={`${privacyStyle.content_inner}`}>
@@ -243,7 +243,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o} `} >
                                 <input id="collapsible3_5_6" className={`${privacyStyle.toggle} `}type="checkbox" />
-                                <label for="collapsible3_5_6" className={`${privacyStyle.sub_lbl_toggle} `} tabindex="0">Device ID</label>
+                                <label htmlFor="collapsible3_5_6" className={`${privacyStyle.sub_lbl_toggle} `} tabIndex="0">Device ID</label>
                                 <div className={`${privacyStyle.collapsible_content } `}>
                                     <div className={`${privacyStyle.content_inner} `}>
                                         <div><b className={privacyStyle.b}>Device ID</b></div>
@@ -257,7 +257,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible } ${privacyStyle.top_o}`}>
                                 <input id="collapsible3_5_7" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_7" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Location Data</label>
+                                <label htmlFor="collapsible3_5_7" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Location Data</label>
                                 <div className={`${privacyStyle.collapsible_content }`}>
                                     <div className={`${privacyStyle.content_inner}`}>
                                         <div><b className={privacyStyle.b}>Location Data</b></div>
@@ -274,7 +274,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible } ${privacyStyle.top_o}`}>
                                 <input id="collapsible3_5_8" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_8" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Emergency
+                                <label htmlFor="collapsible3_5_8" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Emergency
                                     contacts</label>
                                 <div className={`${privacyStyle.collapsible_content}`}>
                                     <div className={`${privacyStyle.content_inner}`}>     
@@ -294,7 +294,7 @@ const privacy = () => {
                             <h4 className={privacyStyle.h4}>Non_Personal Data</h4>
                             <div className={`${privacyStyle.wrap_collabsible}`}>
                                 <input id="collapsible3_5_9" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_9" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Profile_information</label>
+                                <label htmlFor="collapsible3_5_9" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Profile_information</label>
                                 <div className={`${privacyStyle.collapsible_content }`}>
 
                                     <div className={`${privacyStyle.content_inner}`}>
@@ -313,7 +313,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o} `}>
                                 <input id="collapsible3_5_0" className={`${privacyStyle.toggle} `} type="checkbox" />
-                                <label for="collapsible3_5_0" className={`${privacyStyle.sub_lbl_toggle} `} tabindex="0">Audit
+                                <label htmlFor="collapsible3_5_0" className={`${privacyStyle.sub_lbl_toggle} `} tabIndex="0">Audit
                                     Information</label>
                                 <div className={`${privacyStyle.collapsible_content} ${privacyStyle.bottom_1}`}>
                                     <div className={`${privacyStyle.content_inner}`}>
@@ -332,7 +332,7 @@ const privacy = () => {
 
                             <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o}`}>
                                 <input id="collapsible3_5_1_0" className={`${privacyStyle.toggle}`} type="checkbox" />
-                                <label for="collapsible3_5_1_0" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Crash
+                                <label htmlFor="collapsible3_5_1_0" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Crash
                                     reporting</label>
                                 <div className={`${privacyStyle.collapsible_content} ${privacyStyle.bottom_1}`}>
                                     <div className={`${privacyStyle.content_inner}`}>
@@ -351,7 +351,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_6" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_6" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> How Do You Use My Personal Data?</label>
+                <label htmlFor="collapsible3_6" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> How Do You Use My Personal Data?</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>Under the Data Protection Legislation, we must always have a lawful basis for using personal
@@ -406,7 +406,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_7" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_7" className={`${privacyStyle.lbl_toggle}`} tabindex="0">How Long Will You Keep My Personal Data?</label>
+                <label htmlFor="collapsible3_7" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">How Long Will You Keep My Personal Data?</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>We will not keep your personal data for any longer than is necessary in light of the reason(s)
@@ -414,7 +414,7 @@ const privacy = () => {
                             periods:</div>
                         <div className={`${privacyStyle.wrap_collabsible}`}>
                             <input id="collapsible3_7_1" className={`${privacyStyle.toggle}`} type="checkbox" />
-                            <label for="collapsible3_7_1" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Sensitive and personal data
+                            <label htmlFor="collapsible3_7_1" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Sensitive and personal data
                                 including all medical information, name, email, NHS number, telephone number, profile and
                                 analytic data</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
@@ -432,7 +432,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible}`}>
                             <input id="collapsible3_7_2" className={`${privacyStyle.toggle}`} type="checkbox" />
-                            <label for="collapsible3_7_2" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Non_Personal data including
+                            <label htmlFor="collapsible3_7_2" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Non_Personal data including
                                 profile information. audit and crash reporting data</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
                                 <div className={`${privacyStyle.content_inner}`}>
@@ -452,7 +452,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_8" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_8" className={`${privacyStyle.lbl_toggle}`} tabindex="0">How and Where Do You Store or Transfer My
+                <label htmlFor="collapsible3_8" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">How and Where Do You Store or Transfer My
                     Personal Data?</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
@@ -465,7 +465,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_9" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_9" className={`${privacyStyle.lbl_toggle}`} tabindex="0">Do You Share My Personal Data?</label>
+                <label htmlFor="collapsible3_9" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">Do You Share My Personal Data?</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>We do not share your data in ways not described in this policy. In order to deliver our platform
@@ -476,7 +476,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible}`}>
                             <input id="collapsible3_9_1" className={`${privacyStyle.toggle}`} type="checkbox" />
-                            <label for="collapsible3_9_1" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Google Cloud Platform</label>
+                            <label htmlFor="collapsible3_9_1" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Google Cloud Platform</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
                                 <div className={`${privacyStyle.content_inner}`}>
                                     <div><b className={privacyStyle.b}>3rd Party Processor: </b>Google Cloud Platform</div>
@@ -493,7 +493,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o}`}>
                             <input id="collapsible3_9_2" className={`${privacyStyle.toggle}`} type="checkbox" />
-                            <label for="collapsible3_9_2" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Google Analytics</label>
+                            <label htmlFor="collapsible3_9_2" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Google Analytics</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
                                 <div className={`${privacyStyle.content_inner}`}>
                                     <div><b className={privacyStyle.b}>3rd Party Processor: </b>Google Analytics</div>
@@ -510,7 +510,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o}`}>
                             <input id="collapsible3_9_3" className={`${privacyStyle.toggle}`} type="checkbox" />
-                            <label for="collapsible3_9_3" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Intercom</label>
+                            <label htmlFor="collapsible3_9_3" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Intercom</label>
                             <div className={`${privacyStyle.collapsible_content}`}>
                                 <div className={`${privacyStyle.content_inner}`}>
                                     <div><b className={privacyStyle.b}>3rd Party Processor: </b>Intercom</div>
@@ -527,7 +527,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o}`}>
                             <input id="collapsible3_9_4" className={`${privacyStyle.toggle}`} type="checkbox" /> 
-                            <label for="collapsible3_9_4" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Gleap</label>
+                            <label htmlFor="collapsible3_9_4" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Gleap</label>
                             <div className={`${privacyStyle.collapsible_content}`}>
                                 <div className={`${privacyStyle.content_inner}`}>
                                     <div><b className={privacyStyle.b}>3rd Party Processor: </b>Gleap</div>
@@ -543,7 +543,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o}`}>
                             <input id="collapsible3_9_5" className={`${privacyStyle.toggle}`} type="checkbox" />
-                            <label for="collapsible3_9_5" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Encharge</label>
+                            <label htmlFor="collapsible3_9_5" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Encharge</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
                                 <div className={`${privacyStyle.content_inner}`}>
                                     <div><b className={privacyStyle.b}>3rd Party Processor: </b>Encharge</div>
@@ -577,7 +577,7 @@ const privacy = () => {
                         <br />
                         <div className={`${privacyStyle.wrap_collabsible} ${privacyStyle.top_o}`}>
                             <input id="collapsible3_10_1" className={`${privacyStyle.toggle}`} type="checkbox" /> 
-                            <label for="collapsible3_10_1" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">NHS Bodies including: ICS’s,
+                            <label htmlFor="collapsible3_10_1" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">NHS Bodies including: ICS’s,
                                 PCN’s, Hospital Trusts, NHS England, NHS Digital</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
                                 <div className={`${privacyStyle.content_inner}`}>
@@ -593,7 +593,7 @@ const privacy = () => {
 
                         <div className={`${privacyStyle.wrap_collabsible}`}>
                             <input id="collapsible3_10_2" className={`${privacyStyle.toggle}`} type="checkbox" /> 
-                            <label for="collapsible3_10_2" className={`${privacyStyle.sub_lbl_toggle}`} tabindex="0">Academic Health Science Networks
+                            <label htmlFor="collapsible3_10_2" className={`${privacyStyle.sub_lbl_toggle}`} tabIndex="0">Academic Health Science Networks
                                 (AHSNs)</label>
                             <div className={`${privacyStyle.collapsible_content }`}>
                                 <div className={`${privacyStyle.content_inner}`}>
@@ -613,7 +613,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_11" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_11" className={`${privacyStyle.lbl_toggle}`} tabindex="0">How Can I Access My Personal Data? </label>
+                <label htmlFor="collapsible3_11" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">How Can I Access My Personal Data? </label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>If you want to know what personal data we have about you, you can ask us for details of that
@@ -635,7 +635,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                 <input id="collapsible3_12" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_12" className={`${privacyStyle.lbl_toggle}`} tabindex="0">How May Parents Access, Change or Delete
+                <label htmlFor="collapsible3_12" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">How May Parents Access, Change or Delete
                     Information About Their Children? </label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
@@ -661,7 +661,7 @@ const privacy = () => {
 
             <div className={`${privacyStyle.wrap_collabsible}`}>
                     <input id="collapsible3_13" className={`${privacyStyle.toggle}`} type="checkbox" />
-                    <label for="collapsible3_13" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> How Do I Contact You? </label>
+                    <label htmlFor="collapsible3_13" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> How Do I Contact You? </label>
                     <div className={`${privacyStyle.collapsible_content}`}>
                         <div className={`${privacyStyle.content_inner}`}>
                             <div>To contact us about anything to do with your personal data and data protection, including to make
@@ -674,7 +674,7 @@ const privacy = () => {
                     </div>
                 </div><div className={`${privacyStyle.wrap_collabsible}`}>
                         <input id="collapsible3_14" className={`${privacyStyle.toggle}`} type="checkbox" />
-                        <label for="collapsible3_14" className={`${privacyStyle.lbl_toggle}`} tabindex="0"> NHS Login</label>
+                        <label htmlFor="collapsible3_14" className={`${privacyStyle.lbl_toggle}`} tabIndex="0"> NHS Login</label>
                         <div className={`${privacyStyle.collapsible_content}`}>
                             <div className={`${privacyStyle.content_inner}`}>
                                 <div>Please note that if you access our service using your NHS login details, the identity
@@ -690,7 +690,7 @@ const privacy = () => {
                         </div>
                     </div><div className={`${privacyStyle.wrap_collabsible} `}>
                 <input id="collapsible3_15" className={`${privacyStyle.toggle}`} type="checkbox" />
-                <label for="collapsible3_15" className={`${privacyStyle.lbl_toggle}`} tabindex="0">Changes to this Privacy Notice</label>
+                <label htmlFor="collapsible3_15" className={`${privacyStyle.lbl_toggle}`} tabIndex="0">Changes to this Privacy Notice</label>
                 <div className={`${privacyStyle.collapsible_content}`}>
                     <div className={`${privacyStyle.content_inner}`}>
                         <div>We may change this Privacy Notice from time to time. This may be necessary, for example, if the

@@ -1,7 +1,7 @@
 .advantage_signup {
     height: 100%;
     width: 50%;
-    background-color: rgba(240, 216, 216, 0.705);
+    background-color: rgba(241, 234, 234, 0.705);
 }
 
 .sign_up {
@@ -31,6 +31,9 @@
     margin-left: -25px;
     font-size: 15px;
 
+}
+.text_grey{
+    color: rgb(105, 99, 99);
 }
 
 .social {

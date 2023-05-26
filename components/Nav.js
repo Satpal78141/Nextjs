@@ -16,7 +16,7 @@ const Nav = () => {
     });
   }
   return (
-    <div>
+    <div className='bg-white'>
       <nav className={navStyle.nav}>
         <ul>
           <li className={navStyle.logo_list}>

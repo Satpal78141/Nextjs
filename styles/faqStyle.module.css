@@ -72,6 +72,7 @@
 .container_fluid {
     width: 75%;
     padding: 5%;
+    color:black;
     margin: auto;
 }
 
