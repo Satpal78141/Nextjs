@@ -30,7 +30,7 @@ const Pricing = () => {
                 <p className={`${featureStyle.heading} text-center`}>Simplified Pricing</p>
                 <p className={`${featureStyle.text_grey} text-center mt-2`} >Pay once a year, cancel anytime</p>
             </div>
-            <div className='flex'>
+            <div className={featureStyle.flex_cards}>
                 {pricing_Data.map((item) => {
                     return (
                         <div className={`${featureStyle.card}`} key={item.id} >

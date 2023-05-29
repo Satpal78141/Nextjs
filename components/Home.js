@@ -66,8 +66,8 @@ const Main = () => {
 
             </div>
             <div className={`flex ${HomeStyle.icon}`}>
-                <img src='https://www.subly.app/gsuite.png' className={`w-12 h-10 rounded-full ${HomeStyle.googleIcon}`} data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000" />
+                <img src='https://www.subly.app/gsuite.png' className={`w-12 h-10 rounded-full ${HomeStyle.googleIcon} `} data-aos="fade-up"
+                    data-aos-duration="3000" />
                 <img src='https://www.subly.app/primevideo.png' className={`w-12 h-10 rounded-full ${HomeStyle.primeVideoIcon} `} data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000" />
             </div>

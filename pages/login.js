@@ -96,7 +96,7 @@ const login = () => {
 
             <button className={`${signUp_style.create_ac}`} type='submit'>Login</button>
           </form>
-          <p className='text-xs text-grey mt-8 text-center'><a className={signUp_style.anchorStyles} href=''>Forgot your password?</a></p>
+          <p className='text-xs text-grey mt-8 text-center'><a className={signUp_style.anchorStyles} href='/reset'>Forgot your password?</a></p>
         </div>
 
     </div>

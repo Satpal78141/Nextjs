@@ -170,9 +170,9 @@ const Signup = () => {
 
               <button className={`${signUp_style.create_ac}`} type='submit'>Create
                 Account</button>
-              <p>{errorMsg}</p>
+              <p className='text-center text-red mt-2'>{errorMsg}</p>
             </form>
-            <p className='text-xs text-grey mt-8 text-center'>By registering, you accept our <a className={signUp_style.anchorStyle} href=''>Terms of use and Privacy Policy</a></p>
+            <p className='text-xs text-grey mt-8 text-center'>By registering, you accept our <a className={signUp_style.anchorStyle} href='/privacy'>Terms of use and Privacy Policy</a></p>
           </div>
 
         </div>

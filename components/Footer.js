@@ -9,8 +9,10 @@ const Footer = () => {
             <footer className={`flex ${footer.footer} `}>
                 <div className={footer.section}>
                     <div className='flex'><img src='https://www.subly.app/logo.svg' className={`mr-2 w-5 h-10 ${footer.logo}`} /><p className={footer.heading}> Subly</p></div>
-                    <p className={footer.text_grey}>All your subscriptions and recurring payments in one place.</p>
-                    <div className={`flex ${footer.icon_div}`}><button onClick={() => window.location.href = "https://twitter.com/sublyweb"}><i className={`fa-brands fa-twitter ${footer.text_grey}`}></i></button> <button className='ml-10' onClick={() => window.location.href = "https://www.buymeacoffee.com/emiliosanchez"}><img className={`w-5 h-4 ${footer.filter_green}`} src='/coffee_4.svg' /></button>
+                    <p className="text-dark_grey text-sm ">All your subscriptions and recurring payments in one place.</p>
+                    <div className={`flex ${footer.icon_div}`}><button onClick={() => window.location.href = "https://twitter.com/sublyweb"}><i className={`fa-brands fa-twitter ${footer.text_grey}`}></i></button> 
+                    <button className='ml-10' onClick={() => window.location.href = "https://www.buymeacoffee.com/emiliosanchez"}>
+                        <img className={`w-5 h-4 ${footer.filter_green}`} src='/coffee_4.svg' /></button>
                     </div>
                     
                 </div>
@@ -20,7 +22,7 @@ const Footer = () => {
                             <p className={footer.heading}>{item.heading}</p>
                             <ul>
                                 {item.sub_heading.map((sub_section , index) =>
-                                    <li className={`${footer.text_grey}`} key={index}><Link href={sub_section.link}>{sub_section.name}</Link></li>)}
+                                    <li className={`text-dark_grey text-sm`} key={index}><Link href={sub_section.link}>{sub_section.name}</Link></li>)}
 
                             </ul>
                         </div>

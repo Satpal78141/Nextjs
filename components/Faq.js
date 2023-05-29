@@ -8,7 +8,6 @@ const Faq = () => {
     React.useEffect(() => {
         AOS.init();
     }, [])
-    console.log(db)
 
     return (
         <div className={faq.container_fluid} id="faq">

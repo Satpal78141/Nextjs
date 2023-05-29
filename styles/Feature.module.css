@@ -96,7 +96,7 @@
 
 .card {
     height: min-content;
-    width: 50%;
+    width: 350px;
     border-radius: 10px;
     margin-left: 25px;
     border: 2px solid #d4d9ddbd;
@@ -107,14 +107,14 @@
     font-size: 25px;
     margin: auto;
     font-weight: bold;
-    margin-top: 6%;
+    margin-top: 3%;
     width: fit-content;
 }
 
 .underDiv1 {
     padding-top: 6%;
     padding-bottom: 6%;
-    width: 48%;
+    width: fit-content;
     margin: auto;
 }
 
@@ -125,6 +125,7 @@
 .card ul {
     padding-left: 15%;
     padding-right: 15%;
+    margin-top: 25px;
     color:black
 }
 .text_grey{
@@ -144,16 +145,18 @@
     padding: 5%;
 }
 
-.heading_section {
-    padding-top: 15%;
+.heading_section{
+    padding-top: 7%;
     padding-left: 14%;
     color:black;
     padding-right: 14%;
-    padding-bottom: 2%;
-    border-radius: 10px 10px 0px 0px;
-    margin-bottom: 15px;
+    padding-bottom: 2px;
+    border-radius: 5px 10px 0px 0px;
 }
 
+.flex_cards{
+    display: flex;
+}
 
 .bgColor {
     color:white;
@@ -170,17 +173,12 @@
     font-weight: lighter;
 }
 
+
 .proId button {
     border: 2px solid #7448ce88 !important;
     background: linear-gradient(45deg, #8E2DE2, #4A00E0) !important;
 
 }
-@media (prefers-color-scheme: dark) {
-     .proId button {
-    border: 2px solid #7448ce88 !important;
-    background: linear-gradient(45deg, #8E2DE2, #4A00E0) !important;
-
-} }
 
 .proId button:hover {
     border: 2px solid #6531ccdc !important;
@@ -203,3 +201,31 @@
     color: rgba(0, 0, 0, 0.712);
     background-color: rgb(143, 219, 143);
 }
+
+
+
+
+@media screen and (max-width: 770px){
+    .flex_cards{
+    display: block;
+    }
+    .card{
+        margin: auto;
+    }
+    .imgDiv{
+        width: 100%;
+    }
+    .text{
+        width: fit-content;
+        margin: auto;
+    }
+} 
+/* 
+@media screen and (min-width: 770px){
+    .flex_cards{
+        display: flex;
+        }
+        .card{
+            margin: none;
+        }
+    }  */

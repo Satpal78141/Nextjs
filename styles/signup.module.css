@@ -125,3 +125,18 @@
     color: rgba(31, 91, 158, 0.849);
     text-decoration: underline;
 }
+.button{
+    background: rgb(111, 85, 255);
+    color:white;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.anchor{
+    text-align: center;
+    color:#1380E4;
+    font-weight: bold;
+}
+.anchor:hover{
+    text-decoration: underline;
+}

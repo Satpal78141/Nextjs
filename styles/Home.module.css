@@ -260,12 +260,11 @@
 }
 
 .fontSize {
-  width: 100%;
+  width: fit-content;
   text-align: center;
   color:grey;
   font-size: 20px;
-  margin-right: 18%;
-  margin-left: 15%;
+  margin: auto;
   margin-top: -20px;
 }
 
@@ -488,3 +487,4 @@
 }
 
 /* Feature */
+

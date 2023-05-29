@@ -13,6 +13,8 @@ module.exports = {
       ...defaultTheme.colors,
       primary:'#3B81F6',
       backcolor:'#F3F2ED',
+      red:"red",
+      dark_grey:"#000000d1",
       white:'#ffffff',
       black:"black",
       grey:"4a5568",
