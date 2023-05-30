@@ -130,24 +130,24 @@ const Signup = () => {
         </div>
         <div className={`flex ${signUp_style.flex} text-black`}>
           <div className={`${signUp_style.sign_up_Container} `}>
-            <p className={`${signUp_style.heading}`}>Get started with Subly</p>
+            <p className={`${signUp_style.heading} text-center`}>Get started with Subly</p>
             <p className={`font-light ${signUp_style.sub_title} `}>
               Join Subly for free. Already registered ?
               <a href='/login'> Login</a>
             </p>
             <button className={`${signUp_style.social} mt-7`} onClick={GoogleSignUpHandler}>
-              <div className='flex'>
-                <img className='w-6 h-6' src='https://web.subly.app/ic-google.svg' />
+              <div className='flex justify-center'>
+                <img className='w-6 h-6 ' src='https://web.subly.app/ic-google.svg' />
                 <p className='ml-2 font-bold'> Sign up with Google</p>
               </div>
             </button>
             <button className={`${signUp_style.social} `}>
-              <div className='flex'>
+              <div className='flex justify-center'>
                 <img className={`${signUp_style.social_apple} w-9 h-9`} src='https://www.logo.wine/a/logo/Apple_Inc./Apple_Inc.-Logo.wine.svg' />
                 <p className={`font-bold`}>Sign in with Apple</p>
               </div>
             </button>
-            <div className={`m-auto flex ${signUp_style.lineDiv}`}>
+            <div className={`m-auto flex ${signUp_style.lineDiv} w-full`}>
               <hr className='w-28 mr-2 mt-10 ml-4' />
               <p className={`${signUp_style.text_grey} text-sm mt-8`}>Or signup with email</p>
               <hr className='ml-2 w-28 mt-10' />

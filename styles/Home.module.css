@@ -260,7 +260,7 @@
 }
 
 .fontSize {
-  width: fit-content;
+  width: auto;
   text-align: center;
   color:grey;
   font-size: 20px;
@@ -276,7 +276,7 @@
 
 .getStartButton {
   background: #6F55FF;
-  padding: 8px;
+  width: 210px;
   margin-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
@@ -292,6 +292,7 @@
 }
 
 .learnMoreButton {
+  width: 150px;
   padding: 10px;
   margin-top: 25px;
   color: black;
@@ -486,5 +487,43 @@
   background: #fac3ffde;
 }
 
-/* Feature */
+@media screen and (max-width: 770px){
+  .buttons{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
+  .headingSection img{
+    display: none;
+  }
+  .headingSection,.fontSize{
+    width: 100%;
+  }
+   
+   .marginleft, .primeVideoIcon, .googleIcon, .imgWidth, .left, .dis{
+    display: none;
+  }
+  .getStartButton{
+    max-width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: -20px;
+    padding: 0;
+  }
+.learnMoreButton{
+  max-width: 150px;
+  height: 50px;
+  font-size: 15px;
+}
+  .reportImg{
+    width: 90%;
+  }
+  .underDiv.text{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .HeadingSize{
+    margin-top: -20%;
+  }
+}
 

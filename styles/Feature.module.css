@@ -219,6 +219,15 @@
         width: fit-content;
         margin: auto;
     }
+    .background_white,.background_white1{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .background_white .text, .background_white1 .text, .underDiv .text{
+        width:auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 } 
 /* 
 @media screen and (min-width: 770px){

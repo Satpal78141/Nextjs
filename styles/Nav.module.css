@@ -76,3 +76,33 @@
 .nav {
   border-bottom: 1px solid rgb(250, 237, 237);
 }
+.menu{
+  display: none;
+}
+.toggleDis{
+  display: none;
+}
+
+@media screen and (max-width: 770px){
+.sign button{
+  display: none;
+}
+.nav ul .dis ,.nav ul .sign{
+  display: none;
+}
+.login{
+  margin-left: 50%;
+}
+.nav ul{
+  display: flex;
+  margin-top: -45px;
+}
+.menu{
+  display: block;
+  margin-left:25px;
+  margin-top:15px;
+}
+.toggleDis{
+  display: block;
+}
+}
