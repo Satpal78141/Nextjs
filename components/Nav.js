@@ -59,10 +59,10 @@ const Nav = () => {
           <Link onClick={handleClick} href="#pricing">Pricing</Link>
           </li>
           <li className='mt-2'>
-            <button><a href="#faq">FAQ</a></button>
+            <button><Link onClick={handleClick}  href="#faq">FAQ</Link></button>
           </li>
           <li className='mt-2'>
-            <button><a href="/signup">Signup</a></button>
+            <button><a  href="/signup">Signup</a></button>
           </li>
         </ul>
       )}
