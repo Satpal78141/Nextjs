@@ -7,7 +7,11 @@
 .section {
     width: 35%;
     margin-left: 6%;
-    color: gre;
+    color: grey;
+}
+.column{
+    display: flex;
+    width: 100%;
 }
 
 .heading {
@@ -63,4 +67,16 @@
     .section{
        display: flexbox;
     }
+    .icon_div button {
+        padding: 0px 0px;
+    }
+    .column {
+        float: left;
+        display:block;
+        padding: 10px;
+      }
+     .section {
+        width: 50%;
+        float: left;
+      }
 }

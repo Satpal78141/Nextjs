@@ -91,11 +91,13 @@
   display: none;
 }
 .login{
-  margin-left: 50%;
+  position: absolute;
+  right: 25px;
 }
 .nav ul{
   display: flex;
   margin-top: -45px;
+  margin-left: 35px;
 }
 .menu{
   display: block;
