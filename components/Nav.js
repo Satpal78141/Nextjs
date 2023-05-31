@@ -59,6 +59,9 @@ const Nav = () => {
           <Link onClick={handleClick} href="#pricing">Pricing</Link>
           </li>
           <li className='mt-2'>
+            <button><a href="#faq">FAQ</a></button>
+          </li>
+          <li className='mt-2'>
             <button><a href="/signup">Signup</a></button>
           </li>
         </ul>
